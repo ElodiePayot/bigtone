@@ -1,0 +1,15 @@
+[data-aos=fade-down] {
+    transform: translate3d(0, -2rem, 0) !important;
+
+    &.aos-animate {
+        transform: translate3d(0, 0, 0) !important;
+    }
+}
+
+[data-aos=fade-up] {
+    transform: translate3d(0, 2rem, 0) !important;
+
+    &.aos-animate {
+        transform: translate3d(0, 0, 0) !important;
+    }
+}

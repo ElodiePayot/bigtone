@@ -1,0 +1,17 @@
+@layer components {
+    .swiper-slide {
+        height: auto !important;
+    }
+
+    @media (hover:none) {
+        .swiper-slide.swiper-slide-active {
+            .group-slide-active-opacity {
+                @apply opacity-30;
+            }
+            .group-slide-active-translate {
+                @apply translate-x-0 opacity-100;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,38 @@
+@layer components {
+    .number {
+        @apply text-mobile-numbers md:text-tablet-numbers xl:text-numbers;
+    }
+    
+    .medium-text {
+        @apply text-mobile-md md:text-tablet-md xl:text-md;
+    }
+
+    .xxsmall-text {
+        @apply text-mobile-xxs md:text-tablet-xxs xl:text-xxs;
+    }
+
+    .xsmall-text {
+        @apply text-mobile-xs md:text-tablet-xs xl:text-xs;
+    }
+
+    .small-text {
+        @apply text-mobile-sm md:text-tablet-sm xl:text-sm;
+    }
+
+    .large-text {
+        @apply text-mobile-lg md:text-tablet-lg xl:text-lg;
+    }
+
+    .xlarge-text {
+        @apply text-mobile-xl md:text-tablet-xl xl:text-xl;
+    }
+
+    .xxlarge-text {
+        @apply text-mobile-xxl md:text-tablet-xxl xl:text-xxl;
+    }
+
+    .xxxlarge-text {
+        @apply text-mobile-xxxl md:text-tablet-xxxl xl:text-xxxl;
+    }
+}
+
